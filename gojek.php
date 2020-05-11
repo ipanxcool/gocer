@@ -9,7 +9,7 @@ echo "\e[93m   \e[96m  Creator :IPANXCOOL \e[93m \n";
 echo "\e[96m  ==============================================\n";
 echo "\e[96m  =\e[95m - VOUCHER GOSEND                   🇮🇩 \e[96m=\n";
 echo "\e[96m  =\e[95m - VOUCHER GOFOOD                   🇮🇩 \e[96m=\n";
-echo "\e[96m  =\e[95m - VOUCHER GAME                     🇮🇩 \e[96m=\n";
+echo "\e[96m  =\e[95m - VOUCHER GOFOOD                   🇮🇩 \e[96m=\n";
 echo "\e[96m  =\e[95m - VOUCHER DISKON BIAR SEHAT        🇮🇩 \e[96m=\n";
 echo "\e[96m  ==============================================\n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
@@ -92,7 +92,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo color("nevy","+] Your access token : ".$token."\n\n");
         save("token.txt",$token);
         echo color("nevy","\n▬▬▬▬▬▬▬▬▬▬▬▬ AUTO REDEEM VOUCHER GOJEK ▬▬▬▬▬▬▬▬▬▬▬▬");
-        echo "\n".color("nevy"," Claim VC EATLAH");
+        echo "\n".color("nevy"," Claim VC GOSEND");
         echo "\n".color("yellow","Tunggu Sebentar");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -106,7 +106,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         }else{
         echo "\n".color("red"," Message: ".$message);
 	      gocar:
-        echo "\n".color("nevy"," Claim VC GOSEND");
+        echo "\n".color("nevy"," Claim VC GOFOOD);
         echo "\n".color("yellow"," Tunggu Sebentar");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -126,10 +126,10 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo color("yellow",".");
         sleep(10);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"EBADAHGAME"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOODLAGI270420E1"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("green"," Message: ".$message);
-        echo "\n".color("nevy"," Claim VC GAME");
+        echo "\n".color("nevy"," Claim VC SEHAT");
         echo "\n".color("yellow"," Tunggu Sebentar");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
