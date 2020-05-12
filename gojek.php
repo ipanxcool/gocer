@@ -10,7 +10,7 @@ echo "\e[96m  ==============================================\n";
 echo "\e[96m  =\e[95m - VOUCHER GOSEND                   🇮🇩 \e[96m=\n";
 echo "\e[96m  =\e[95m - VOUCHER GOFOOD                   🇮🇩 \e[96m=\n";
 echo "\e[96m  =\e[95m - VOUCHER GOFOOD                   🇮🇩 \e[96m=\n";
-echo "\e[96m  =\e[95m - VOUCHER DISKON BIAR SEHAT        🇮🇩 \e[96m=\n";
+echo "\e[96m  =\e[95m - VOUCHER ONGKOS 30K               🇮🇩 \e[96m=\n";
 echo "\e[96m  ==============================================\n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[95m Sudah Punya User ID belom (Y/N ?: ";	
