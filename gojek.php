@@ -106,7 +106,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         }else{
         echo "\n".color("red"," Message: ".$message);
 	      gocar:
-        echo "\n".color("nevy"," Claim VC GOMART ");
+        echo "\n".color("nevy"," Claim VC GOMART");
         echo "\n".color("yellow"," Tunggu Sebentar");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
